@@ -3,8 +3,11 @@ import java.util.*;
     ArrayList 
     ---------
 
-    .add(element)
+    .add(element) - adss new block at end
+    .add(index, element) - adds a new block at end of index
     .get(index)
+    .set(index, element) - replaces value at a index (doesnt create new block , only used for replacement)
+    
     .remove(index) - removes ele at specific index
     .removeAll(element) - removes all occurences of a element
     .indexOf(ele) - first occ
