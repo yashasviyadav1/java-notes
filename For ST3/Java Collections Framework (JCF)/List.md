@@ -14,6 +14,8 @@ methods:-
 ```java
 li.add(element);
 
+li.get(index) // get element at index 
+
 li.add(index, element) // add new element at end of index i
 
 li.set(index, element) // replace index i value with element
